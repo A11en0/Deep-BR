@@ -5,7 +5,7 @@ from functools import reduce
 import torch
 import numpy as np
 from torch.utils.data import DataLoader
-from torch.utils.tensorboard import SummaryWriter
+# from torch.utils.tensorboard import SummaryWriter
 
 from config import *
 from models import Model
@@ -26,7 +26,7 @@ def run(args, save_dir, file_name):
 
     features, labels, idx_list = load_mat_data_v1(os.path.join(args.DATA_ROOT, args.DATA_SET_NAME + '.mat'), True)
 
-    writer = SummaryWriter()
+    # writer = SummaryWriter()
     fold_list = []
     rets = np.zeros((Fold_numbers, 7))
     for fold in range(Fold_numbers):
@@ -66,8 +66,8 @@ def run(args, save_dir, file_name):
             f.write("{metric}\t{means:.4f}±{std:.4f}".format(metric=metrics[i], means=means[i], std=stds[i]))
             f.write("\n")
 
-    writer.flush()
-    writer.close()
+    # writer.flush()
+    # writer.close()
 
 
 if __name__ == '__main__':

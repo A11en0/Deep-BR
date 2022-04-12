@@ -4,10 +4,7 @@ import torch
 import torch.optim as optim
 import torch.nn.functional as F
 from torch.utils.tensorboard import SummaryWriter
-
-# from models import label_propagation, build_graph, estimating_label_correlation_matrix
-from utils.common_loss import compute_loss, calc_kl_loss
-from utils.ml_metrics import all_metrics, RankingLoss
+from utils.ml_metrics import all_metrics
 
 
 def train(model, device, views_data_loader, args, loss_coefficient,
@@ -133,7 +130,6 @@ class Trainer(object):
         writer.close()
         print(f"best_F1: {best_F1}, epoch {best_epoch}")
         return loss_list
-
 
 
 if __name__ == '__main__':
