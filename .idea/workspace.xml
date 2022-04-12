@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="82fe00d5-b27c-4241-af26-d1a35654e133" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/data/Corel5k/Corel5k-fold0-test-features.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/data/Corel5k/Corel5k-fold0-test-labels.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/data/Corel5k/Corel5k-fold0-train-features.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/data/Corel5k/Corel5k-fold0-train-labels.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/data/Corel5k/Corel5k-fold1-test-features.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/data/Corel5k/Corel5k-fold1-test-labels.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/data/Corel5k/Corel5k-fold1-train-features.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/data/Corel5k/Corel5k-fold1-train-labels.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/data/Corel5k/Corel5k-fold2-test-features.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/data/Corel5k/Corel5k-fold2-test-labels.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/data/Corel5k/Corel5k-fold2-train-features.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/data/Corel5k/Corel5k-fold2-train-labels.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/data/Corel5k/Corel5k-fold3-test-features.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/data/Corel5k/Corel5k-fold3-test-labels.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/data/Corel5k/Corel5k-fold3-train-features.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/data/Corel5k/Corel5k-fold3-train-labels.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/data/Corel5k/Corel5k-fold4-test-features.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/data/Corel5k/Corel5k-fold4-test-labels.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/data/Corel5k/Corel5k-fold4-train-features.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/data/Corel5k/Corel5k-fold4-train-labels.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/datasets/Espgame.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/datasets/Iaprtc12.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/datasets/Mirflickr.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/datasets/yeast.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/model/bin/results/tensorboard/test/events.out.tfevents.1649749129.debian" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/model/bin/results/tensorboard/test/events.out.tfevents.1649749299.debian" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/model/bin/results/tensorboard/test/events.out.tfevents.1649749397.debian" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/model/bin/results/tensorboard/test/events.out.tfevents.1649749527.debian" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/model/bin/results/tensorboard/test/events.out.tfevents.1649749684.debian" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/model/bin/results/tensorboard/test/events.out.tfevents.1649749752.debian" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/model/bin/results/tensorboard/train/events.out.tfevents.1649749129.debian" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/model/bin/results/tensorboard/train/events.out.tfevents.1649749299.debian" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/model/bin/results/tensorboard/train/events.out.tfevents.1649749397.debian" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/model/bin/results/tensorboard/train/events.out.tfevents.1649749527.debian" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/model/bin/results/tensorboard/train/events.out.tfevents.1649749683.debian" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/model/bin/results/tensorboard/train/events.out.tfevents.1649749752.debian" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/model/bin/results/tensorboard/val/events.out.tfevents.1649749129.debian" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/model/bin/results/tensorboard/val/events.out.tfevents.1649749299.debian" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/model/bin/results/tensorboard/val/events.out.tfevents.1649749397.debian" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/model/bin/results/tensorboard/val/events.out.tfevents.1649749527.debian" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/model/bin/results/tensorboard/val/events.out.tfevents.1649749684.debian" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/model/bin/results/tensorboard/val/events.out.tfevents.1649749752.debian" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Multi-label/C2AE-Multilabel-Classification/model/src/ml_metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/Espgame.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/emotions/emotions-p0.3-r3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/emotions/emotions-p0.5-r3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/emotions/emotions-p0.7-r3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-04-37_debian/events.out.tfevents.1649754284.debian.7169.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-07-07_debian/events.out.tfevents.1649754428.debian.7324.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-09-15_debian/events.out.tfevents.1649754557.debian.7475.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-09-57_debian/events.out.tfevents.1649754598.debian.7606.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-10-12_debian/events.out.tfevents.1649754613.debian.7667.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-11-47_debian/events.out.tfevents.1649754708.debian.7887.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-12-53_debian/events.out.tfevents.1649754774.debian.8161.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-14-24_debian/events.out.tfevents.1649754865.debian.8496.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-14-27_debian/events.out.tfevents.1649754867.debian.8496.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-15-59_debian/events.out.tfevents.1649754959.debian.8663.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-16-01_debian/events.out.tfevents.1649754961.debian.8663.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-17-28_debian/events.out.tfevents.1649755050.debian.8944.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-17-31_debian/events.out.tfevents.1649755051.debian.8944.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-18-00_debian/events.out.tfevents.1649755081.debian.9051.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-21-19_debian/events.out.tfevents.1649755281.debian.9433.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-21-41_debian/events.out.tfevents.1649755302.debian.9498.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-21-53_debian/events.out.tfevents.1649755313.debian.9498.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-22-53_debian/events.out.tfevents.1649755374.debian.10047.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-22-56_debian/events.out.tfevents.1649755376.debian.10047.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-24-56_debian/events.out.tfevents.1649755496.debian.10247.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-24-58_debian/events.out.tfevents.1649755498.debian.10247.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-24-58_debian/events.out.tfevents.1649755498.debian.10247.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-24-59_debian/events.out.tfevents.1649755499.debian.10247.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-24-59_debian/events.out.tfevents.1649755499.debian.10247.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-24-59_debian/events.out.tfevents.1649755499.debian.10247.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-25-26_debian/events.out.tfevents.1649755527.debian.10313.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-25-29_debian/events.out.tfevents.1649755529.debian.10313.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-25-29_debian/events.out.tfevents.1649755529.debian.10313.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-25-30_debian/events.out.tfevents.1649755530.debian.10313.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-25-30_debian/events.out.tfevents.1649755530.debian.10313.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-25-30_debian/events.out.tfevents.1649755530.debian.10313.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-26-12_debian/events.out.tfevents.1649755573.debian.10372.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-26-15_debian/events.out.tfevents.1649755575.debian.10372.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-26-15_debian/events.out.tfevents.1649755575.debian.10372.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-26-15_debian/events.out.tfevents.1649755575.debian.10372.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-26-15_debian/events.out.tfevents.1649755575.debian.10372.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-26-16_debian/events.out.tfevents.1649755576.debian.10372.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-26-37_debian/events.out.tfevents.1649755598.debian.10470.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-26-39_debian/events.out.tfevents.1649755599.debian.10470.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-26-40_debian/events.out.tfevents.1649755600.debian.10470.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-26-40_debian/events.out.tfevents.1649755600.debian.10470.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-26-40_debian/events.out.tfevents.1649755600.debian.10470.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-26-40_debian/events.out.tfevents.1649755600.debian.10470.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-26-55_debian/events.out.tfevents.1649755616.debian.10512.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-26-58_debian/events.out.tfevents.1649755618.debian.10512.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-26-58_debian/events.out.tfevents.1649755618.debian.10512.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-26-58_debian/events.out.tfevents.1649755618.debian.10512.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-26-59_debian/events.out.tfevents.1649755619.debian.10512.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-26-59_debian/events.out.tfevents.1649755619.debian.10512.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-28-14_debian/events.out.tfevents.1649755694.debian.10660.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-28-16_debian/events.out.tfevents.1649755696.debian.10660.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-28-17_debian/events.out.tfevents.1649755697.debian.10660.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-28-18_debian/events.out.tfevents.1649755698.debian.10660.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-28-19_debian/events.out.tfevents.1649755699.debian.10660.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-28-20_debian/events.out.tfevents.1649755700.debian.10660.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-28-28_debian/events.out.tfevents.1649755709.debian.10715.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-28-31_debian/events.out.tfevents.1649755711.debian.10715.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-28-33_debian/events.out.tfevents.1649755713.debian.10715.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-28-34_debian/events.out.tfevents.1649755714.debian.10715.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-28-36_debian/events.out.tfevents.1649755716.debian.10715.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-28-38_debian/events.out.tfevents.1649755718.debian.10715.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-41-58_debian/events.out.tfevents.1649756519.debian.11974.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-42-00_debian/events.out.tfevents.1649756520.debian.11974.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-42-02_debian/events.out.tfevents.1649756522.debian.11974.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-42-03_debian/events.out.tfevents.1649756523.debian.11974.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-42-04_debian/events.out.tfevents.1649756524.debian.11974.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-42-05_debian/events.out.tfevents.1649756525.debian.11974.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-42-28_debian/events.out.tfevents.1649756548.debian.12031.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-42-30_debian/events.out.tfevents.1649756550.debian.12031.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-42-31_debian/events.out.tfevents.1649756551.debian.12031.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-42-32_debian/events.out.tfevents.1649756552.debian.12031.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-42-33_debian/events.out.tfevents.1649756553.debian.12031.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-42-34_debian/events.out.tfevents.1649756554.debian.12031.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-42-44_debian/events.out.tfevents.1649756564.debian.12072.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-42-46_debian/events.out.tfevents.1649756566.debian.12072.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-42-47_debian/events.out.tfevents.1649756567.debian.12072.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-42-48_debian/events.out.tfevents.1649756568.debian.12072.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-42-49_debian/events.out.tfevents.1649756569.debian.12072.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-42-50_debian/events.out.tfevents.1649756570.debian.12072.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-43-12_debian/events.out.tfevents.1649756593.debian.12140.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-43-15_debian/events.out.tfevents.1649756595.debian.12140.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-43-15_debian/events.out.tfevents.1649756595.debian.12140.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-43-15_debian/events.out.tfevents.1649756595.debian.12140.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-43-15_debian/events.out.tfevents.1649756595.debian.12140.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-43-16_debian/events.out.tfevents.1649756596.debian.12140.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-43-22_debian/events.out.tfevents.1649756603.debian.12180.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-43-25_debian/events.out.tfevents.1649756605.debian.12180.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-43-28_debian/events.out.tfevents.1649756608.debian.12180.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-43-30_debian/events.out.tfevents.1649756610.debian.12180.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-43-33_debian/events.out.tfevents.1649756613.debian.12180.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-43-35_debian/events.out.tfevents.1649756615.debian.12180.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-45-18_debian/events.out.tfevents.1649756718.debian.12371.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-45-20_debian/events.out.tfevents.1649756720.debian.12371.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-45-22_debian/events.out.tfevents.1649756722.debian.12371.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-45-25_debian/events.out.tfevents.1649756725.debian.12371.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-45-27_debian/events.out.tfevents.1649756727.debian.12371.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-45-29_debian/events.out.tfevents.1649756729.debian.12371.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-46-13_debian/events.out.tfevents.1649756773.debian.12540.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-46-17_debian/events.out.tfevents.1649756777.debian.12540.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-47-31_debian/events.out.tfevents.1649756863.debian.12761.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-47-46_debian/events.out.tfevents.1649756866.debian.12761.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-48-07_debian/events.out.tfevents.1649756887.debian.12761.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-48-30_debian/events.out.tfevents.1649756910.debian.12761.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-48-50_debian/events.out.tfevents.1649756930.debian.12761.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-49-11_debian/events.out.tfevents.1649756951.debian.12761.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-54-46_debian/events.out.tfevents.1649757286.debian.13222.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-54-48_debian/events.out.tfevents.1649757288.debian.13222.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-54-51_debian/events.out.tfevents.1649757291.debian.13222.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-54-53_debian/events.out.tfevents.1649757293.debian.13222.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-54-55_debian/events.out.tfevents.1649757295.debian.13222.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-54-58_debian/events.out.tfevents.1649757298.debian.13222.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-55-00_debian/events.out.tfevents.1649757300.debian.13222.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-55-00_debian/events.out.tfevents.1649757300.debian.13222.7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-55-03_debian/events.out.tfevents.1649757303.debian.13222.8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-55-05_debian/events.out.tfevents.1649757305.debian.13222.9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-55-08_debian/events.out.tfevents.1649757308.debian.13222.10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-55-10_debian/events.out.tfevents.1649757310.debian.13222.11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-55-12_debian/events.out.tfevents.1649757312.debian.13222.12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-55-12_debian/events.out.tfevents.1649757312.debian.13222.13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-55-15_debian/events.out.tfevents.1649757315.debian.13222.14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-55-17_debian/events.out.tfevents.1649757317.debian.13222.15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-55-19_debian/events.out.tfevents.1649757319.debian.13222.16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-55-22_debian/events.out.tfevents.1649757322.debian.13222.17" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-57-25_debian/events.out.tfevents.1649757445.debian.13405.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-57-27_debian/events.out.tfevents.1649757447.debian.13405.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-57-30_debian/events.out.tfevents.1649757450.debian.13405.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-57-33_debian/events.out.tfevents.1649757453.debian.13405.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-57-35_debian/events.out.tfevents.1649757455.debian.13405.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-57-37_debian/events.out.tfevents.1649757457.debian.13405.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-57-40_debian/events.out.tfevents.1649757460.debian.13405.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-57-40_debian/events.out.tfevents.1649757460.debian.13405.7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-57-42_debian/events.out.tfevents.1649757462.debian.13405.8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-57-44_debian/events.out.tfevents.1649757464.debian.13405.9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-58-57_debian/events.out.tfevents.1649757538.debian.13537.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-59-00_debian/events.out.tfevents.1649757540.debian.13537.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-59-00_debian/events.out.tfevents.1649757540.debian.13537.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-59-00_debian/events.out.tfevents.1649757540.debian.13537.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-59-00_debian/events.out.tfevents.1649757540.debian.13537.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-59-01_debian/events.out.tfevents.1649757541.debian.13537.10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-59-01_debian/events.out.tfevents.1649757541.debian.13537.11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-59-01_debian/events.out.tfevents.1649757541.debian.13537.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-59-01_debian/events.out.tfevents.1649757541.debian.13537.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-59-01_debian/events.out.tfevents.1649757541.debian.13537.7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-59-01_debian/events.out.tfevents.1649757541.debian.13537.8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-59-01_debian/events.out.tfevents.1649757541.debian.13537.9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-59-02_debian/events.out.tfevents.1649757542.debian.13537.12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-59-02_debian/events.out.tfevents.1649757542.debian.13537.13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-59-02_debian/events.out.tfevents.1649757542.debian.13537.14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-59-02_debian/events.out.tfevents.1649757542.debian.13537.15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-59-02_debian/events.out.tfevents.1649757542.debian.13537.16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/Apr12_17-59-02_debian/events.out.tfevents.1649757542.debian.13537.17" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/common_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/common_tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/ml_metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/random_noise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/visualize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deep-MV/utils/visualize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Relational-AutoEncoders/run_mvpml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/Pyg-TextGCN.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/.idea/GCT.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/bert/EvaluateAcc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/bert/EvaluateClustering.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/bert/MethodBertComp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/bert/MethodGraphBatching.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/bert/MethodGraphBert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/bert/MethodGraphBertGraphClustering.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/bert/MethodGraphBertGraphRecovery.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/bert/MethodGraphBertNodeClassification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/bert/MethodGraphBertNodeConstruct.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/bert/MethodHopDistance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/bert/MethodWLNodeColoring.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/bert/ResultSaving.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/bert/Settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/best_pre_Twitter15_4unsup.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/loadBiData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/methods/MethodGraphBatching.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/methods/MethodHopDistance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/methods/MethodWLNodeColoring.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/methods/getTwittergraph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/process_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/result/screenshot/Screen Shot 2020-03-08 at 11.45.23 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/result/screenshot/cora_graph_residual_k_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/result/screenshot/cora_none_residual_k_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/result/screenshot/cora_raw_residual_k_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/result/screenshot/model.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/result/screenshot/temp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GCT/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GTM/.idea/GTM.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GTM/build_graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GTM/data/20ng/20ng.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GTM/data/20ng/text/corpus/20ng.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GTM/data/cnews10k/text/corpus/cnews10k.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GTM/data/text/corpus/mr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GTM/data_processor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GTM/dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GTM/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GTM/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GTM/test/build_graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GTM/test/ctm_train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GTM/test/demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GTM/test/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GTM/tokenization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GTM/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphBTM/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphBTM/.idea/GraphBTM.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphBTM/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphBTM/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphBTM/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphBTM/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphBTM/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphNetwork/.idea/GraphNetwork.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphNetwork/.idea/remote-mappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphNetwork/ZINK_download.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphNetwork/datasets/ogbg_molpcba/RELEASE_v1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphNetwork/datasets/ogbg_molpcba/mapping/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphNetwork/datasets/ogbg_molpcba/mapping/mol.csv.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphNetwork/datasets/ogbg_molpcba/processed/geometric_data_processed.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphNetwork/datasets/ogbg_molpcba/processed/pre_filter.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphNetwork/datasets/ogbg_molpcba/processed/pre_transform.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphNetwork/datasets/ogbg_molpcba/raw/edge-feat.csv.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphNetwork/datasets/ogbg_molpcba/raw/edge.csv.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphNetwork/datasets/ogbg_molpcba/raw/graph-label.csv.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphNetwork/datasets/ogbg_molpcba/raw/node-feat.csv.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphNetwork/datasets/ogbg_molpcba/raw/num-edge-list.csv.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphNetwork/datasets/ogbg_molpcba/raw/num-node-list.csv.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphNetwork/datasets/ogbg_molpcba/split/scaffold/test.csv.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphNetwork/datasets/ogbg_molpcba/split/scaffold/train.csv.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphNetwork/datasets/ogbg_molpcba/split/scaffold/valid.csv.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphNetwork/mini-batch-VGAE.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphNetwork/ppi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Graphormer/graphormer/loadBiData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Graphormer/graphormer/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LANTM/.idea/LANTM.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Learning-pytorch/.idea/Learning-pytorch.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/.idea/Main_model2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/1_MR/.idea/1_MR.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/1_MR/1_self_entity/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/1_MR/2_father_entity/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/1_MR/3_entity_and_interaction/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/1_MR/4_cnn_interaction_no_attention/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/1_MR/5_entity_and_interaction_BERT/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/1_MR/6_entity_and_interaction_rand/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/2_TREC/.idea/2_TREC.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/2_TREC/1_self_entity/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/2_TREC/2_father_entity/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/2_TREC/3_entity_and_interaction/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/2_TREC/4_cnn_interaction_no_attention/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/2_TREC/5_entity_and_interaction_BERT/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/2_TREC/6_entity_and_interaction_random/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/3_SST1/.idea/3_SST1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/3_SST1/1_self_entity/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/3_SST1/2_father_entity/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/3_SST1/3_entity_and_interaction/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/3_SST1/4_cnn_interaction_no_attention/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/3_SST1/5_entity_and_interaction_BERT/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/3_SST1/6_entity_and_interaction_random/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/4_SST2/.idea/4_SST2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/4_SST2/1_self_entity/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/4_SST2/2_father_entity/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/4_SST2/3_entity_and_interaction/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/4_SST2/4_cnn_interaction_no_attention/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/4_SST2/5_entity_and_interaction_BERT/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/4_SST2/6_entity_and_interaction_random/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/5_AG/.idea/5_AG.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/5_AG/1_self_entity/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/5_AG/2_father_entity/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/5_AG/3_entity_and_interaction/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/5_AG/4_cnn_interaction_no_attention/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/5_AG/5_entity_and_interaction_BERT/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main_model2_up/5_AG/6_entity_and_interaction_random/.idea/SST_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NLP/.idea/NLP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NTM/multi-view/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../NTM/multi-view/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NTM/multi-view/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../NTM/multi-view/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NTM/multi-view/networks/decoder_network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NTM/multi-view/networks/inference_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../NTM/multi-view/networks/inference_network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NTM/multi-view/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../NTM/multi-view/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NTM/multi-view/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../NTM/multi-view/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NTM/multi-view/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pyg-TextGCN/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pyg-TextGCN/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pyg-TextGCN/.idea/Pyg-TextGCN.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pyg-TextGCN/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pyg-TextGCN/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pyg-TextGCN/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pyg-TextGCN/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pyg-TextGCN/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pyg-TextGCN/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pyg-TextGCN/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pyg-TextGCN/train_eval.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pyg-TextGCN/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pytorch-Text-Classification/.idea/Pytorch-Text-Classification.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RDEA/.idea/RDEA.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RDEA/.idea/remote-mappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RDEA/Process/Twitter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RDEA/data/Twitter15/raw/Twitter15_label_All.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RDEA/data/Twitter15/raw/data.TD_RvNN.vol_5000.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SimCSE/.idea/SimCSE.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SimCSE/demo/bert_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC-tf/.idea/VAE-TC-tf.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC-tf/dome_mini_batch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC-tf/gae.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/.idea/VAE-TC.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/GNN_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/GraphBTM.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/MyOwnDataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/build_graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-13-59.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-14-00.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-14-01.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-14-02.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-14-04.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-14-06.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-14-17.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-14-18.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-14-19.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-14-22.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-14-23.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-14-26.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-14-27.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-14-32.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-14-37.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-14-38.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-14-39.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-15-03.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-15-08.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-15-09.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-15-10.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-15-18.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-15-24.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-15-26.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-15-33.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_cnews10k_tp20_2021-08-24-15-39.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_mr_tp20_2021-08-24-18-42.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_mr_tp20_2021-08-24-18-43.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_mr_tp20_2021-08-24-18-48.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_mr_tp20_2021-08-25-10-20.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_mr_tp20_2021-08-25-10-22.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_mr_tp20_2021-08-25-10-30.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_mr_tp20_2021-08-25-10-31.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_mr_tp20_2021-08-25-10-32.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_mr_tp20_2021-08-25-10-33.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_mr_tp20_2021-08-25-10-34.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/ckpt/GSM_mr_tp20_2021-08-25-10-39.ckpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/data/mr/raw/A.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/data/mr/raw/node_graph_id.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/data/mr/raw/split_idx_label.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/data/mr/split_idx_label.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/data_processor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/cnews10k/corpus.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/cnews10k/corpus.mm.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/cnews10k/dict.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/cnews10k/docs.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/cnews10k/w2v_weight_kv.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/cnews10k_lines.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/data-web-snippets.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/mnist/MNIST/raw/t10k-images-idx3-ubyte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/mnist/MNIST/raw/t10k-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/mnist/MNIST/raw/t10k-labels-idx1-ubyte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/mnist/MNIST/raw/t10k-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/mnist/MNIST/raw/train-images-idx3-ubyte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/mnist/MNIST/raw/train-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/mnist/MNIST/raw/train-labels-idx1-ubyte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/mnist/MNIST/raw/train-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/mr/raw/label_all.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/mr/raw/label_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/mr/raw/label_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/mr/raw/text_all.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/mr/raw/text_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/mr/raw/text_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/mr/w2v_weight_kv.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/handle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/processed/corpus_all.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/processed/corpus_all.mm.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/processed/corpus_test.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/processed/corpus_test.mm.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/processed/corpus_train.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/processed/corpus_train.mm.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/processed/dict.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/processed/docs_all.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/processed/docs_test.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/processed/docs_train.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/processed/embedding.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/processed/labels_all.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/processed/labels_test.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/processed/labels_train.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/processed/seqs_all.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/processed/seqs_test.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/processed/seqs_train.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/raw/class.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/raw/label_all.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/raw/label_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/raw/label_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/raw/text_all.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/raw/text_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/raw/text_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/snippets/train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/stopwords_cn.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/datasets/stopwords_en.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/generated_sample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/generated_sample_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/graphBTM_run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/loadDataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/models/ProdLDA.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/models/layers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/models/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/models/sparseMM.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/models/vae.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/models/variational_dropout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/results/gsm_embeds.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/results/topic_dist_gsm.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/run_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/tokenization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/train_eval.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/vae_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VAE-TC/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bert4keras/.idea/bert4keras.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bert4keras/.idea/shelf/Uncommitted_changes_before_Update_at_2021_8_14_5_27__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bert4keras/datasets/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bert4keras/examples/datasets/lcqmc.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bert4keras/examples/datasets/sentiment.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bert4keras/examples/simcse-su/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bert4keras/examples/simcse-su/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bert4keras/examples/simcse-su/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bert4keras/examples/simcse-su/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bert4keras/examples/simcse-su/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bert4keras/examples/simcse-su/.idea/simcse-su.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bert4keras/examples/simcse-su/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bert4keras/examples/simcse-su/eval.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bert4keras/examples/simcse-su/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../context-topic-1/dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../context-topic/tests/datasets/TREC/TREC.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../context-topic/tests/datasets/TREC/TREC.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../context-topic/tests/datasets/Yahoo/Yahoo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../context-topic/tests/datasets/Yahoo/Yahoo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../context-topic/tests/datasets/Yahoo/labels.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../context-topic/tests/datasets/Yahoo/labels.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../context-topic/tests/datasets/snippets/snippets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../context-topic/tests/datasets/snippets/snippets_clean.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../context-topic/tests/datasets/snippets/snippets_deps.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../context-topic/tests/datasets/snippets/snippets_head.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../context-topic/tests/datasets/snippets/snippets_indicator.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../context-topic/tests/datasets/tagmynews/tagmynews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../context-topic/tests/datasets/tagmynews/tagmynews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../context-topic/tests/datasets/tagmynews/tagmynews_clean.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../context-topic/tests/datasets/tagmynews/tagmynews_deps.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../context-topic/tests/datasets/tagmynews/tagmynews_head.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../context-topic/tests/datasets/tagmynews/tagmynews_indicator.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../context-topic/tests/datasets/text_dataset/clean_corpus/20news.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../context-topic/tests/datasets/text_dataset/clean_corpus/20news.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../contextualized-topic-models/tests/build_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../contextualized-topic-models/tests/build_graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../contextualized-topic-models/tests/datasets.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../contextualized-topic-models/tests/datasets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../contextualized-topic-models/tests/datasets/R8/raw/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../contextualized-topic-models/tests/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../contextualized-topic-models/tests/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../contextualized-topic-models/tests/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../contextualized-topic-models/tests/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../contextualized-topic-models/tests/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../contextualized-topic-models/tests/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../contextualized-topic-models/tests/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../contextualized-topic-models/tests/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/graph/20ng.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/graph/R52.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/graph/R8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/graph/mr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/graph/ohsumed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/text_dataset/20ng.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/text_dataset/R52.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/text_dataset/R8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/text_dataset/clean_corpus/20ng.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/text_dataset/clean_corpus/R52.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/text_dataset/clean_corpus/R8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/text_dataset/clean_corpus/mr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/text_dataset/clean_corpus/ohsumed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/text_dataset/corpus/20ng.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/text_dataset/corpus/R52.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/text_dataset/corpus/R8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/text_dataset/corpus/mr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/text_dataset/corpus/ohsumed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/text_dataset/mr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/text_dataset/ohsumed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../fake-news/GNN-FakeNews/gnn_model/udfs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pythonProject/.idea/pytorch-learning.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../train_eval.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Deep-MV/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/.idea/Deep-MV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Deep-MV/.idea/Deep-MV.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Deep-MV/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Deep-MV/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/datasets/Corel5k.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../Deep-MV/datasets/Corel5k.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/datasets/Pascal.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../Deep-MV/datasets/Pascal.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/datasets/emotions/emotions-test.arff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/datasets/emotions/emotions-train.arff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/datasets/emotions/emotions.arff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/datasets/emotions/emotions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/datasets/read_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Deep-MV/datasets/read_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/datasets/scene.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../Deep-MV/datasets/scene.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/datasets/yeast_raw.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/layer/view_block.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Deep-MV/layer/view_block.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Deep-MV/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Deep-MV/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/runs/Mar10_16-53-32_debian/events.out.tfevents.1646902413.debian.28473.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/runs/Mar10_16-53-37_debian/events.out.tfevents.1646902417.debian.28473.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/runs/Mar10_16-53-41_debian/events.out.tfevents.1646902421.debian.28473.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/runs/Mar10_16-53-45_debian/events.out.tfevents.1646902425.debian.28473.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/runs/Mar10_16-53-49_debian/events.out.tfevents.1646902429.debian.28473.4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/runs/Mar10_16-54-31_debian/events.out.tfevents.1646902471.debian.28589.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/runs/Mar10_16-54-32_debian/events.out.tfevents.1646902472.debian.28589.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/runs/Mar10_16-54-34_debian/events.out.tfevents.1646902474.debian.28589.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/runs/Mar10_16-54-35_debian/events.out.tfevents.1646902475.debian.28589.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/runs/Mar10_16-54-36_debian/events.out.tfevents.1646902476.debian.28589.4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/runs/Mar10_17-02-49_debian/events.out.tfevents.1646902969.debian.29220.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/runs/Mar10_17-02-50_debian/events.out.tfevents.1646902970.debian.29220.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/runs/Mar10_17-02-52_debian/events.out.tfevents.1646902972.debian.29220.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/runs/Mar10_17-02-53_debian/events.out.tfevents.1646902973.debian.29220.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/runs/Mar10_17-02-54_debian/events.out.tfevents.1646902974.debian.29220.4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Deep-MV/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/utils/common_loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Deep-MV/utils/common_loss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/utils/common_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Deep-MV/utils/common_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deep-MV/utils/random_noise.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Deep-MV/utils/random_noise.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="27giWLZVhPsDzfhOYvqT8od2boQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="ssh.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/datasets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.run">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Deep-BR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Deep-BR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82fe00d5-b27c-4241-af26-d1a35654e133" name="Default Changelist" comment="" />
+      <created>1649748160396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649748160396</updated>
+      <workItem from="1649748162580" duration="1000" />
+      <workItem from="1649748820072" duration="5268000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Deep_BR$run.coverage" NAME="run Coverage Results" MODIFIED="1649757536768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
