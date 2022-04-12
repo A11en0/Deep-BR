@@ -1,4 +1,4 @@
-# Deep-MVML
+# Deep-BR
 The implementation of Deep-BR using PyTorch.
 
 # Sample Dataset
