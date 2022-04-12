@@ -4,10 +4,7 @@ import torch
 import torch.optim as optim
 import torch.nn.functional as F
 from torch.utils.tensorboard import SummaryWriter
-
-# from models import label_propagation, build_graph, estimating_label_correlation_matrix
-from utils.common_loss import compute_loss, calc_kl_loss
-from utils.ml_metrics import all_metrics, RankingLoss
+from utils.ml_metrics import all_metrics
 
 
 def train(model, device, views_data_loader, args, loss_coefficient,
@@ -108,22 +105,12 @@ class Trainer(object):
                                                   self.device, is_eval=True, args=args)
 
                 # draw figure to find best epoch number
-                loss_list[epoch]["Hamming"] = metrics_results[0][1]
-                loss_list[epoch]["Average"] = metrics_results[1][1]
-                loss_list[epoch]["OneError"] = metrics_results[2][1]
-                loss_list[epoch]["Ranking"] = metrics_results[3][1]
-                loss_list[epoch]["Coverage"] = metrics_results[4][1]
-                loss_list[epoch]["MacroF1"] = metrics_results[5][1]
-                loss_list[epoch]["MicroF1"] = metrics_results[6][1]
-
-                if best_F1 < metrics_results[6][1]:
-                    best_F1, best_epoch = metrics_results[6][1], epoch
-
-                metrics = ['hamming_loss', 'avg_precision', 'one_error', 'ranking_loss', 'coverage', 'macrof1',
-                           'microf1']
-                for i in range(7):
-                    print(f"{metrics[i]}: {metrics_results[i][1]:.4f}", end='\t')
+                for i, key in enumerate(metrics_results):
+                    print(f"{key}: {metrics_results[key]:.4f}", end='\t')
+                    loss_list[epoch][key] = metrics_results[key]
                 print("\n")
+                if best_F1 < metrics_results['micro_f1']:
+                    best_F1, best_epoch = metrics_results['micro_f1'], epoch
 
             if (epoch + 1) % self.model_save_epoch == 0:
                 torch.save(self.model.state_dict(),
@@ -133,7 +120,6 @@ class Trainer(object):
         writer.close()
         print(f"best_F1: {best_F1}, epoch {best_epoch}")
         return loss_list
-
 
 
 if __name__ == '__main__':

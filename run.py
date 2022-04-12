@@ -5,7 +5,7 @@ from functools import reduce
 import torch
 import numpy as np
 from torch.utils.data import DataLoader
-from torch.utils.tensorboard import SummaryWriter
+# from torch.utils.tensorboard import SummaryWriter
 
 from config import *
 from models import Model
@@ -26,9 +26,9 @@ def run(args, save_dir, file_name):
 
     features, labels, idx_list = load_mat_data_v1(os.path.join(args.DATA_ROOT, args.DATA_SET_NAME + '.mat'), True)
 
-    writer = SummaryWriter()
-    fold_list = []
-    rets = np.zeros((Fold_numbers, 7))
+    # writer = SummaryWriter()
+    fold_list, metrics_results = [], []
+    rets = np.zeros((Fold_numbers, 11))  # 11 metrics
     for fold in range(Fold_numbers):
         TEST_SPLIT_INDEX = fold
         print('-' * 50 + '\n' + 'Fold: %s' % fold)
@@ -53,21 +53,21 @@ def run(args, save_dir, file_name):
 
         metrics_results, _ = test(model, test_features, test_labels, device, is_eval=True, args=args)
 
-        for i, m in enumerate(metrics_results):
-            rets[fold][i] = m[1]
+        for i, key in enumerate(metrics_results):
+            rets[fold][i] = metrics_results[key]
 
     print("\n------------summary--------------")
     means = np.mean(rets, axis=0)
     stds = np.std(rets, axis=0)
-    metrics = ['hamming_loss', 'avg_precision', 'one_error', 'ranking_loss', 'coverage', 'macrof1', 'microf1',]
+    metrics_list = list(metrics_results.keys())
     with open(save_name, "w") as f:
         for i, _ in enumerate(means):
-            print("{metric}\t{means:.4f}±{std:.4f}".format(metric=metrics[i], means=means[i], std=stds[i]))
-            f.write("{metric}\t{means:.4f}±{std:.4f}".format(metric=metrics[i], means=means[i], std=stds[i]))
+            print("{metric}\t{means:.4f}±{std:.4f}".format(metric=metrics_list[i], means=means[i], std=stds[i]))
+            f.write("{metric}\t{means:.4f}±{std:.4f}".format(metric=metrics_list[i], means=means[i], std=stds[i]))
             f.write("\n")
 
-    writer.flush()
-    writer.close()
+    # writer.flush()
+    # writer.close()
 
 
 if __name__ == '__main__':
@@ -81,10 +81,10 @@ if __name__ == '__main__':
     noise_rates = [0.3, 0.5, 0.7]
 
     datanames = ['emotions']
+    # datanames = ['yeast']
     # datanames = ['Pascal']
     # datanames = ['Corel5k']
     # datanames = ['Mirflickr']
-    # datanames = ['Espgame']
     # datanames = ['Espgame']
 
     for dataname in datanames:

@@ -7,7 +7,7 @@ class Args:
     def __init__(self):
         self.DATA_ROOT = './datasets'
         self.DATA_SET_NAME = 'Espgame'
-        self.epoch = 10
+        self.epoch = 20
         self.show_epoch = 1
         # self.epoch_used_for_final_result = 4
         self.model_save_epoch = 10
